@@ -73,3 +73,5 @@ if __name__ == "__main__":
     system("cls || clear")
     #print(check_sudoku(sudoku_prueba))
     print(check_sudoku(sudoku_1))
+#I don't know how to continue
+#Comment from the testing_branch
