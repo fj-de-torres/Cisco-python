@@ -7,4 +7,4 @@ class Queue():
     
     def get(self):
         if len(self.queue_list)>0:
-            val = self.queue_list.pop(0)
+            val = self.queue_list.pop(0) # type: ignore
