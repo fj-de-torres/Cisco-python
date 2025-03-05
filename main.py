@@ -1,17 +1,18 @@
-from sys import path
-#path.append('../Python_2/modules')
-path.insert(0,'../Python_2/modules')
-from module import suml, prodl
 from os import system
+from sys import path
+path.append('../Python_2/packages')
+path.append('../Python_2/packages/extrapack.zip')
 
-if __name__ == "__main__":
-    system("cls || clear")
-    #print(module.__counter)
-    zeroes = [0 for i in range(5)]
-    ones = [1 for i in range(5)]
+import extra.iota
+system("cls || clear")
+print(extra.iota.funI())
 
-    print(suml(zeroes))
-    print(prodl(ones))
+import extra.good.best.sigma as sig
+import extra.good.alpha as alp
+print(sig.funS())
+print(alp.funA())
 
-    for p in path:
-        print(p)
+from extra.good.best.tau import funT
+
+print(extra.good.best.sigma.funS())
+print(funT())
